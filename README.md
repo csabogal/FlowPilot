@@ -1,10 +1,11 @@
 # FlowPilot Landing Page
 
-This repository contains the prototype for the **FlowPilot** landing page, an AI-powered workspace designed for modern, remote-first teams. The project was built to evaluate senior-level frontend judgment, visual sensibility, and rapid execution using modern AI-assisted engineering practices.
+
+
 
 ## 🚀 Live Demo
 
-*(Enter your Vercel or Netlify Live URL here before submitting)*
+*https://flow-pilot-mocha.vercel.app/*
 
 ## 🛠️ Tech Stack & Frameworks
 

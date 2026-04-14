@@ -5,29 +5,29 @@ const features = [
   {
     icon: <Brain className="w-6 h-6 text-accent" />,
     title: 'AI-powered organization',
-    description: 'Stop organizing folders. FlowPilot automatically categorizes your ideas, tasks, and notes based on context and relevance.',
+    description: 'Auto-categorize ideas, tasks, and notes instantly based on context.',
   },
   {
     icon: <Users className="w-6 h-6 text-primary" />,
     title: 'Real-time collaboration',
-    description: 'Work together seamlessly. Cursors, comments, and presence in real-time. Built for remote teams moving at lightspeed.',
+    description: 'Work seamlessly with live cursors, context-aware comments, and presence.',
   },
   {
     icon: <Compass className="w-6 h-6 text-purple-400" />,
     title: 'Decision tracking',
-    description: 'Never lose track of why a choice was made. FlowPilot logs decisions and links them directly to the surrounding context.',
+    description: 'Automatically log decisions and link them directly to the surrounding context.',
   },
 ];
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="py-24 relative z-10 bg-dark">
+    <section id="features" className="py-32 md:py-48 relative z-10 bg-dark">
       <div className="container mx-auto px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-4">
+        <div className="text-center max-w-4xl mx-auto mb-24">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-balance">
             A smarter way to work
           </h2>
-          <p className="text-white/60 text-lg">
+          <p className="text-white/50 text-xl font-light">
             Everything your team needs to move fast and stay aligned, packed into one fluid interface.
           </p>
         </div>
