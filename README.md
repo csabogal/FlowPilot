@@ -5,7 +5,7 @@
 
 ## 🚀 Live Demo
 
-*https://flow-pilot-mocha.vercel.app/*
+[https://flow-pilot-mocha.vercel.app/](https://flow-pilot-mocha.vercel.app/)
 
 ## 🛠️ Tech Stack & Frameworks
 
@@ -41,7 +41,7 @@ This project was built leveraging Advanced Agentic Coding tools, acting as a hig
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/csabogal/FlowPilot.git
    cd FlowPilot
    ```
 2. **Install dependencies:**
@@ -59,7 +59,7 @@ This project was built leveraging Advanced Agentic Coding tools, acting as a hig
 
 ## 📈 What would be improved with more time?
 
-Given a stricter deadline of 3-5 hours, prioritizing impact over deep complexity was necessary. With more time, the following would be added:
+Although the company provided a generous 4-day timeframe, I chose to execute this project rapidly within a fraction of that time (approx. 4 - 5 hours) to demonstrate both speed with judgment and high-level execution capability. With more time, the following would be added:
 - **E2E Testing:** Playwright tests to ensure scroll behaviors and CTAs work perfectly on all devices.
 - **Interactive Mockup:** Making the CSS hero mockup actually interactive, with hoverable states.
 - **Dark/Light Mode Toggle:** Adding a true system-level preference toggle, though Dark Mode is the optimal aesthetic for this brand.

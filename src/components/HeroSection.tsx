@@ -64,15 +64,16 @@ export function HeroSection() {
 
         {/* Image Mockup with Floating Animation */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="relative mt-12 w-full flex justify-center"
+           initial={{ opacity: 0, scale: 0.95 }}
+           animate={{ opacity: 1, scale: 1 }}
+           transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+           className="relative mt-16 w-full flex justify-center"
         >
-          <motion.div
-            animate={{ y: [0, -15, 0] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="relative w-full max-w-5xl rounded-2xl md:rounded-[32px] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.5)] bg-surfaceSubtle p-1 md:p-3"
+          {/* Subtle Ambient Glow behind the mockup */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-accent/20 blur-[120px] rounded-full pointer-events-none" />
+
+          <div
+            className="relative w-full max-w-5xl rounded-2xl md:rounded-[32px] overflow-hidden bg-surfaceSubtle p-1 md:p-3 animate-[float-mockup_4s_ease-in-out_infinite]"
           >
             {/* The actual generated UI image */}
             <img 
@@ -82,7 +83,7 @@ export function HeroSection() {
             />
             {/* Subtle glow overlay over the image to blend it nicely */}
             <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-transparent to-transparent pointer-events-none rounded-[32px]" />
-          </motion.div>
+          </div>
         </motion.div>
       </div>
   </section>

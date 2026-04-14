@@ -38,6 +38,19 @@ body {
   100% { transform: translateX(-50%); }
 }
 
+@keyframes float-mockup {
+  0%, 100% {
+    transform: translateY(0);
+    /* Stronger, tighter shadow when closer to 'ground' */
+    box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255,255,255,0.1);
+  }
+  50% {
+    transform: translateY(-8px);
+    /* Softer, wider shadow when floating higher */
+    box-shadow: 0 35px 50px -15px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255,255,255,0.1);
+  }
+}
+
 .animate-shimmer {
   position: relative;
   overflow: hidden;
